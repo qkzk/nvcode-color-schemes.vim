@@ -44,7 +44,7 @@ palette:
 
 
 highlights:
-  Normal: "fg"
+  Normal: "fg bg"
 
   Comment: "gutter_fg_grey - i"
   Constant: "yellow"
