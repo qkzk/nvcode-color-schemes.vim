@@ -267,11 +267,11 @@ hi DashboardCenter guifg=#c68a75 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE ct
 hi DashboardFooter guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 
- hi WinBar           ctermfg=100 cterm=NONE
- hi WinBarNC         ctermfg=109 cterm=NONE
- hi WinBarLocation   ctermfg=109 cterm=NONE
- hi WinBarModified   ctermfg=186 cterm=NONE
- hi WinBarGitDirty   ctermfg=139 cterm=NONE
+ hi WinBar           ctermfg=100 cterm=NONE ctermbg=NONE
+ hi WinBarNC         ctermfg=109 cterm=NONE ctermbg=NONE
+ hi WinBarLocation   ctermfg=109 cterm=NONE ctermbg=NONE
+ hi WinBarModified   ctermfg=186 cterm=NONE ctermbg=NONE
+ hi WinBarGitDirty   ctermfg=139 cterm=NONE ctermbg=NONE
 
  hi ModeC ctermbg=254 ctermfg=235 cterm=NONE " COMMAND 
  hi ModeI ctermbg=180 ctermfg=238 cterm=NONE " INSERT  
