@@ -273,12 +273,12 @@ hi WinBarLocation   ctermfg=109 cterm=NONE ctermbg=NONE guifg=#888888 gui=bold
 hi WinBarModified   ctermfg=186 cterm=NONE ctermbg=NONE guifg=#d7d787 gui=bold
 hi WinBarGitDirty   ctermfg=139 cterm=NONE ctermbg=NONE guifg=#d7afd7 gui=bold
 
-hi ModeC ctermbg=254 ctermfg=235 cterm=NONE guibg=#dddddd guifg=#101010 gui=bold 
-hi ModeI ctermbg=180 ctermfg=238 cterm=NONE guibg=#ffff5f guifg=#353535 gui=bold 
-hi ModeT ctermbg=144 ctermfg=238 cterm=NONE guibg=#95e454 guifg=#353535 gui=bold 
-hi ModeN ctermbg=111 ctermfg=238 cterm=NONE guibg=#8ac6f2 guifg=#353535 gui=bold 
-hi ModeV ctermbg=139 ctermfg=238 cterm=NONE guibg=#c586c0 guifg=#353535 gui=bold 
-hi ModeR ctermbg=203 ctermfg=238 cterm=NONE guibg=#f44747 guifg=#353535 gui=bold 
+hi ModeC ctermbg=254 ctermfg=235 cterm=NONE guibg=#dddddd guifg=#101010 gui=bold " COMMAND 
+hi ModeI ctermbg=180 ctermfg=238 cterm=NONE guibg=#ffff5f guifg=#353535 gui=bold " INSERT  
+hi ModeT ctermbg=144 ctermfg=238 cterm=NONE guibg=#95e454 guifg=#353535 gui=bold " TERMINAL
+hi ModeN ctermbg=111 ctermfg=238 cterm=NONE guibg=#8ac6f2 guifg=#353535 gui=bold " NORMAL  
+hi ModeV ctermbg=139 ctermfg=238 cterm=NONE guibg=#c586c0 guifg=#353535 gui=bold " VISUAL  
+hi ModeR ctermbg=203 ctermfg=238 cterm=NONE guibg=#f44747 guifg=#353535 gui=bold " REPLACE 
 
 hi StatusLineGit  cterm=NONE ctermbg=241 ctermfg=139 guibg=#444444 guifg=#d7afd7 gui=bold
 hi StatusLine                ctermbg=235 ctermfg=247 guibg=#262626 guifg=#999999
