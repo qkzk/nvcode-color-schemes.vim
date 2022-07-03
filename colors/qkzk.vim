@@ -267,22 +267,22 @@ hi DashboardCenter guifg=#c68a75 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE ct
 hi DashboardFooter guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 
- hi WinBar           ctermfg=100 cterm=bold
- hi WinBarNC         ctermfg=109 cterm=bold
- hi WinBarLocation   ctermfg=109 cterm=bold
- hi WinBarModified   ctermfg=186 cterm=bold
- hi WinBarGitDirty   ctermfg=139 cterm=bold
+ hi WinBar           ctermfg=100 cterm=NONE
+ hi WinBarNC         ctermfg=109 cterm=NONE
+ hi WinBarLocation   ctermfg=109 cterm=NONE
+ hi WinBarModified   ctermfg=186 cterm=NONE
+ hi WinBarGitDirty   ctermfg=139 cterm=NONE
 
- hi ModeC ctermbg=254 ctermfg=235 cterm=bold " COMMAND 
- hi ModeI ctermbg=180 ctermfg=238 cterm=bold " INSERT  
- hi ModeT ctermbg=144 ctermfg=238 cterm=bold " TERMINAL
- hi ModeN ctermbg=111 ctermfg=238 cterm=bold " NORMAL  
- hi ModeV ctermbg=139 ctermfg=238 cterm=bold " VISUAL  
- hi ModeR ctermbg=203 ctermfg=238 cterm=bold " REPLACE 
+ hi ModeC ctermbg=254 ctermfg=235 cterm=NONE " COMMAND 
+ hi ModeI ctermbg=180 ctermfg=238 cterm=NONE " INSERT  
+ hi ModeT ctermbg=144 ctermfg=238 cterm=NONE " TERMINAL
+ hi ModeN ctermbg=111 ctermfg=238 cterm=NONE " NORMAL  
+ hi ModeV ctermbg=139 ctermfg=238 cterm=NONE " VISUAL  
+ hi ModeR ctermbg=203 ctermfg=238 cterm=NONE " REPLACE 
 
- hi StatusLineGit  cterm=bold ctermbg=241 ctermfg=139
+ hi StatusLineGit  cterm=NONE ctermbg=241 ctermfg=139
  hi StatusLine                ctermbg=235 ctermfg=247
- hi StatusLineFile cterm=bold ctermbg=235 ctermfg=249
+ hi StatusLineFile cterm=NONE ctermbg=235 ctermfg=249
  hi StatusLineMod             ctermbg=235 ctermfg=222
  hi StatusLineError           ctermbg=235 ctermfg=196
  hi StatusLineInfo            ctermbg=235 ctermfg=111
