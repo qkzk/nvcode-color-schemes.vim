@@ -269,8 +269,8 @@ hi DashboardFooter guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE ct
 
 
 hi WinBar           ctermfg=100 cterm=NONE ctermbg=NONE guifg=#d8dee9 gui=bold
-hi WinBarNC         ctermfg=109 cterm=NONE ctermbg=NONE guifg=#abb2bf gui=bold
-hi WinBarLocation   ctermfg=109 cterm=NONE ctermbg=NONE guifg=#abb2bf gui=bold
+hi WinBarNC         ctermfg=109 cterm=NONE ctermbg=NONE guifg=#a2b2cf gui=bold
+hi WinBarLocation   ctermfg=109 cterm=NONE ctermbg=NONE guifg=#a2b2cf gui=bold
 hi WinBarModified   ctermfg=186 cterm=NONE ctermbg=NONE guifg=#e7cb93 gui=bold
 hi WinBarGitDirty   ctermfg=139 cterm=NONE ctermbg=NONE guifg=#c586c0 gui=bold
 
