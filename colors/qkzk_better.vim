@@ -308,12 +308,12 @@ exe "hi! TSConstructor"       .s:fg_none       .s:bg_none       .s:fmt_ital
 " hi TSStringEscape guifg=#d7ba7d ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 " hi TSVariable guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 " hi TSVariableBuiltin guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-exe "hi! TSField"               .s:fg_fg       .s:bg_none       .s:fmt_none
-exe "hi! TSParameter"           .s:fg_fg       .s:bg_none       .s:fmt_none
-exe "hi! TSPunctBracket"        .s:fg_fg       .s:bg_none       .s:fmt_none
-exe "hi! TSStringEscape"        .s:fg_fg       .s:bg_none       .s:fmt_none
-exe "hi! TSVariable"            .s:fg_fg       .s:bg_none       .s:fmt_none
-exe "hi! TSVariableBuiltin"     .s:fg_fg       .s:bg_none       .s:fmt_none
+exe "hi! TSField"               .s:fg_fg            .s:bg_none       .s:fmt_none
+exe "hi! TSParameter"           .s:fg_fg            .s:bg_none       .s:fmt_none
+exe "hi! TSPunctBracket"        .s:fg_fg            .s:bg_none       .s:fmt_none
+exe "hi! TSStringEscape"        .s:fg_fg            .s:bg_none       .s:fmt_none
+exe "hi! TSVariable"            .s:fg_fg            .s:bg_none       .s:fmt_none
+exe "hi! TSVariableBuiltin"     .s:fg_fg            .s:bg_none       .s:fmt_none
 
 " blue fonce = function
 " hi TSKeyword guifg=#82aaff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -322,11 +322,11 @@ exe "hi! TSVariableBuiltin"     .s:fg_fg       .s:bg_none       .s:fmt_none
 " hi TSOperator guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 " hi TSProperty guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
-exe "hi! TSKeyword"                 .s:fg_function       .s:bg_none       .s:fmt_none
-exe "hi! TSKeywordFunction"         .s:fg_function       .s:bg_none       .s:fmt_none
-exe "hi! TSLabel"                   .s:fg_function       .s:bg_none       .s:fmt_none
-exe "hi! TSOperator"                .s:fg_function       .s:bg_none       .s:fmt_none
-exe "hi! TSProperty"                .s:fg_function       .s:bg_none       .s:fmt_none
+exe "hi! TSKeyword"              .s:fg_keyword       .s:bg_none       .s:fmt_none
+exe "hi! TSKeywordFunction"      .s:fg_keyword       .s:bg_none       .s:fmt_none
+exe "hi! TSLabel"                .s:fg_keyword       .s:bg_none       .s:fmt_none
+exe "hi! TSOperator"             .s:fg_keyword       .s:bg_none       .s:fmt_none
+exe "hi! TSProperty"             .s:fg_keyword       .s:bg_none       .s:fmt_none
 
 " jaune = constant
 " hi TSPunctDelimiter guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
