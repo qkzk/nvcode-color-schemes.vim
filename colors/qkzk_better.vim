@@ -159,7 +159,7 @@ exe "hi! Operator"        .s:fg_operator  .s:bg_none        .s:fmt_none
 "   Exception"
 
 exe "hi! PreProc"         .s:fg_special   .s:bg_none        .s:fmt_none
-"   Include"
+exe "hi! Include"         .s:fg_keyword   .s:bg_none        .s:fmt_none
 "   Define"
 "   Macro"
 "   PreCondit"
