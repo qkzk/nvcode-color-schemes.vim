@@ -242,6 +242,11 @@ hi ModeR ctermbg=203 ctermfg=238 cterm=NONE guibg=#f44747 guifg=#3b4252 gui=bold
 " hi StatusLineOutside         ctermbg=238 ctermfg=245 guibg=#3a3a3a guifg=#999999
 
 
+hi lualine_b_normal guifg=#bbc2cf
+hi lualine_c_normal guifg=#bbc2cf
+hi lualine_a_inactive guifg=#bbc2cf
+hi lualine_b_inactive guifg=#bbc2cf
+hi lualine_c_inactive guifg=#bbc2cf
 
 " Treesitter
 

@@ -17,7 +17,7 @@ let g:colors_name = "qkzk_better"
 let s:palette = {}
 
 let s:palette.bg_nvim   = {'dark': "NONE",     'light': "#FAFAFA"}
-let s:palette.bg        = {'dark': "#2c323c",  'light': "#FAFAFA"}
+let s:palette.bg        = {'dark': "#3b4048",  'light': "#FAFAFA"}
 
 let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#8B8086"}
 let s:palette.markup    = {'dark': "#BF616A",  'light': "#F07178"}
@@ -229,6 +229,16 @@ else
   let g:terminal_ansi_colors += [s:palette.regexp[s:style],  s:palette.comment[s:style]]
 endif
 
+
+" LuaLine
+" --------
+
+
+exe "hi lualine_b_normal"          .s:fg_fg          .s:bg_none          .s:fmt_none
+exe "hi lualine_c_normal"          .s:fg_fg          .s:bg_none          .s:fmt_none
+exe "hi lualine_a_inactive"        .s:fg_fg          .s:bg_none          .s:fmt_none
+exe "hi lualine_b_inactive"        .s:fg_fg          .s:bg_none          .s:fmt_none
+exe "hi lualine_c_inactive"        .s:fg_fg          .s:bg_none          .s:fmt_none
 
 " NerdTree
 " ---------
