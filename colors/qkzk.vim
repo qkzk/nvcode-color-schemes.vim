@@ -127,7 +127,7 @@ hi TSVariable guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi TSVariableBuiltin guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSText guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTextReference guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi __notfound guifg=#9ba1ab ctermfg=247 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi __notfound guifg=#9ba1ab ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStrong guifg=#e7cb93 ctermfg=226 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSEmphasis guifg=#88c0d0 ctermfg=226 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSUnderline guifg=#88c0d0 ctermfg=226 guibg=NONE ctermbg=NONE gui=italic cterm=italic
