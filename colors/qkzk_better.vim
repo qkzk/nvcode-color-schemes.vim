@@ -16,7 +16,8 @@ let g:colors_name = "qkzk_better"
 
 let s:palette = {}
 
-let s:palette.bg        = {'dark': "#4c566a",  'light': "#FAFAFA"}
+" let s:palette.bg        = {'dark': "#4c566a",  'light': "#FAFAFA"}
+let s:palette.bg        = {'dark': "#d8dee9",  'light': "#FAFAFA"}
 
 let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#8B8086"}
 let s:palette.markup    = {'dark': "#BF616A",  'light': "#F07178"}
