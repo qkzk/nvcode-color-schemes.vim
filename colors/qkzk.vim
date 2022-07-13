@@ -79,7 +79,7 @@ hi TabLine guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#292d38 ctermbg=236 gui=NONE cterm=NONE
 hi Terminal guifg=#d8dee9 ctermfg=254 guibg=#3b4252 ctermbg=238 gui=NONE cterm=NONE
-hi Visual guifg=NONE ctermfg=NONE guibg=#3e4452 ctermbg=238 gui=NONE cterm=NONE
+hi Visual guifg=NONE ctermfg=NONE guibg=#088075 ctermbg=238 gui=NONE cterm=NONE
 hi VisualNOS guifg=#3e4452 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WarningMsg guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#3b4252 ctermfg=238 guibg=#82aaff ctermbg=111 gui=NONE cterm=NONE
