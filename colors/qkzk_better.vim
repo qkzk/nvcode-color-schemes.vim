@@ -297,7 +297,7 @@ let &background = s:style
 exe "hi! TSConstructor"       .s:fg_tag       .s:bg_none       .s:fmt_none
 exe "hi! TSTextReference"     .s:fg_tag       .s:bg_none       .s:fmt_none
 
-# italic
+" italic
 " hi TSEmphasis guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=italic cterm=italic
 exe "hi! TSConstructor"       .s:fg_none       .s:bg_none       .s:fmt_ital
 
