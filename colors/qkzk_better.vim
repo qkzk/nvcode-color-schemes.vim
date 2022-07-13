@@ -16,26 +16,27 @@ let g:colors_name = "qkzk_better"
 
 let s:palette = {}
 
+let s:palette.none      = {'dark': "NONE",     'light': "#FAFAFA"}
 let s:palette.bg        = {'dark': "#4c566a",  'light': "#FAFAFA"}
 
-let s:palette.comment   = {'dark': "#6a6e7e",  'light': "#8B8086"}
-let s:palette.markup    = {'dark': "#bf616a",  'light': "#F07178"}
-let s:palette.constant  = {'dark': "#6c8a75",  'light': "#834AAC"}
-let s:palette.operator  = {'dark': "#81a1c1",  'light': "#C7A517"}
-let s:palette.tag       = {'dark': "#b48ead",  'light': "#165389"}
+let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#8B8086"}
+let s:palette.markup    = {'dark': "#BF616A",  'light': "#F07178"}
+let s:palette.constant  = {'dark': "#6C8A75",  'light': "#834AAC"}
+let s:palette.operator  = {'dark': "#81A1C1",  'light': "#C7A517"}
+let s:palette.tag       = {'dark': "#B48EAD",  'light': "#165389"}
 let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#4CBF99"}
-let s:palette.string    = {'dark': "#a3be8c",  'light': "#368300"}
-let s:palette.function  = {'dark': "#e7cb93",  'light': "#C26718"}
-let s:palette.special   = {'dark': "#88c0d0",  'light': "#764613"}
-let s:palette.keyword   = {'dark': "#82aaff",  'light': "#CC4411"}
+let s:palette.string    = {'dark': "#A3BE8C",  'light': "#368300"}
+let s:palette.function  = {'dark': "#E7CB93",  'light': "#C26718"}
+let s:palette.special   = {'dark': "#88C0D0",  'light': "#764613"}
+let s:palette.keyword   = {'dark': "#82AAFF",  'light': "#CC4411"}
 
-let s:palette.error     = {'dark': "#f44747",  'light': "#FF3333"}
-let s:palette.accent    = {'dark': "#e7cb93",  'light': "#FF6A00"}
+let s:palette.error     = {'dark': "#F44747",  'light': "#FF3333"}
+let s:palette.accent    = {'dark': "#E7CB93",  'light': "#FF6A00"}
 let s:palette.panel     = {'dark': "#14191F",  'light': "#FFFFFF"}
 let s:palette.guide     = {'dark': "#2D3640",  'light': "#D9D8D7"}
 let s:palette.line      = {'dark': "#151A1E",  'light': "#F3F3F3"}
 let s:palette.selection = {'dark': "#088075",  'light': "#F0EEE4"}
-let s:palette.fg        = {'dark': "#abb2bf",  'light': "#5C6773"}
+let s:palette.fg        = {'dark': "#ABB2BF",  'light': "#5C6773"}
 let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#828C99"}
 
 "}}}
@@ -85,7 +86,7 @@ exe "let s:fmt_revb = ' gui=NONE".s:r.s:b.  " cterm=NONE".s:r.s:b.  " term=NONE"
 
 " Vim Highlighting: (see :help highlight-groups)"{{{
 " ----------------------------------------------------------------------------
-exe "hi! Normal"        .s:fg_fg          .s:bg_bg          .s:fmt_none
+exe "hi! Normal"        .s:fg_fg          .s:bg_none          .s:fmt_none
 exe "hi! ColorColumn"   .s:fg_none        .s:bg_line        .s:fmt_none
 " Conceal, Cursor, CursorIM
 exe "hi! CursorColumn"  .s:fg_none        .s:bg_line        .s:fmt_none
