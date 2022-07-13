@@ -19,7 +19,7 @@ let s:palette = {}
 let s:palette.bg_nvim   = {'dark': "NONE",     'light': "#DADAA8"}
 let s:palette.bg        = {'dark': "#3b4048",  'light': "#BABA9A"}
 
-let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#6B6086"}
+let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#AAAA7A"}
 let s:palette.markup    = {'dark': "#BF616A",  'light': "#D05158"}
 let s:palette.constant  = {'dark': "#E7CB93",  'light': "#A26718"}
 let s:palette.operator  = {'dark': "#81A1C1",  'light': "#164379"}
