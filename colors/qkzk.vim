@@ -86,9 +86,9 @@ hi WildMenu guifg=#3b4252 ctermfg=238 guibg=#82aaff ctermbg=111 gui=NONE cterm=N
 hi EndOfBuffer guifg=#232731 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSComment guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSError guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSPunctDelimiter guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctDelimiter guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctBracket guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSPunctSpecial guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctSpecial guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSConstant guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstBuiltin guifg=#82aaff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstMacro guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -127,7 +127,7 @@ hi TSVariable guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi TSVariableBuiltin guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSText guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTextReference guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi __notfound guifg=#82aaff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi __notfound guifg=#9ba1ab ctermfg=247 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi TSStrong guifg=#e7cb93 ctermfg=226 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSEmphasis guifg=#88c0d0 ctermfg=226 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSUnderline guifg=#88c0d0 ctermfg=226 guibg=NONE ctermbg=NONE gui=italic cterm=italic
