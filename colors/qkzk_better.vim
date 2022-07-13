@@ -18,13 +18,12 @@ let s:palette = {}
 
 let s:palette.bg_nvim   = {'dark': "NONE",     'light': "#FAFAFA"}
 let s:palette.bg        = {'dark': "#4c566a",  'light': "#FAFAFA"}
-" let s:palette.bg        = {'dark': "#d8dee9",  'light': "#FAFAFA"}
 
 let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#8B8086"}
 let s:palette.markup    = {'dark': "#BF616A",  'light': "#F07178"}
 let s:palette.constant  = {'dark': "#E7CB93",  'light': "#834AAC"}
 let s:palette.operator  = {'dark': "#81A1C1",  'light': "#C7A517"}
-let s:palette.tag       = {'dark': "#B48EAD",  'light': "#165389"}
+let s:palette.tag       = {'dark': "#c586c0",  'light': "#165389"}
 let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#4CBF99"}
 let s:palette.string    = {'dark': "#A3BE8C",  'light': "#368300"}
 let s:palette.function  = {'dark': "#E7CB93",  'light': "#C26718"}
@@ -38,7 +37,7 @@ let s:palette.guide     = {'dark': "#6a6e7e",  'light': "#D9D8D7"}
 let s:palette.line      = {'dark': "#2c323c",  'light': "#F3F3F3"}
 let s:palette.selection = {'dark': "#3b4252",  'light': "#F0EEE4"}
 let s:palette.visual    = {'dark': "#088075",  'light': "#F0EEE4"}
-let s:palette.fg        = {'dark': "#d8dee9",  'light': "#5C6773"}
+let s:palette.fg        = {'dark': "#bbbbbb",  'light': "#5C6773"}
 let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#828C99"}
 
 "}}}
@@ -116,7 +115,7 @@ exe "hi! PmenuSel"      .s:fg_fg          .s:bg_selection   .s:fmt_revr
 "   PmenuSbar"
 "   PmenuThumb"
 exe "hi! Question"      .s:fg_string      .s:bg_none        .s:fmt_none
-exe "hi! Search"        .s:fg_bg          .s:bg_constant    .s:fmt_none
+exe "hi! Search"        .s:fg_bg          .s:bg_selection   .s:fmt_none
 exe "hi! SpecialKey"    .s:fg_selection   .s:bg_none        .s:fmt_none
 exe "hi! SpellCap"      .s:fg_tag         .s:bg_none        .s:fmt_undr
 exe "hi! SpellLocal"    .s:fg_keyword     .s:bg_none        .s:fmt_undr
