@@ -37,7 +37,7 @@ let s:palette.guide     = {'dark': "#6a6e7e",  'light': "#D9D8D7"}
 let s:palette.line      = {'dark': "#2c323c",  'light': "#F3F3F3"}
 let s:palette.selection = {'dark': "#3b4252",  'light': "#F0EEE4"}
 let s:palette.visual    = {'dark': "#088075",  'light': "#F0EEE4"}
-let s:palette.fg        = {'dark': "#bbbbbb",  'light': "#5C6773"}
+let s:palette.fg        = {'dark': "#c8ced9",  'light': "#5C6773"}
 let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#828C99"}
 
 "}}}
@@ -115,16 +115,16 @@ exe "hi! PmenuSel"      .s:fg_fg          .s:bg_selection   .s:fmt_revr
 "   PmenuSbar"
 "   PmenuThumb"
 exe "hi! Question"      .s:fg_string      .s:bg_none        .s:fmt_none
-exe "hi! Search"        .s:fg_bg          .s:bg_selection   .s:fmt_none
+exe "hi! Search"        .s:fg_none        .s:bg_panel       .s:fmt_none
 exe "hi! SpecialKey"    .s:fg_selection   .s:bg_none        .s:fmt_none
 exe "hi! SpellCap"      .s:fg_tag         .s:bg_none        .s:fmt_undr
 exe "hi! SpellLocal"    .s:fg_keyword     .s:bg_none        .s:fmt_undr
-exe "hi! SpellBad"      .s:fg_error       .s:bg_none        .s:fmt_undr
+exe "hi! SpellBad"      .s:fg_error       .s:bg_none        .s:fmt_none
 exe "hi! SpellRare"     .s:fg_regexp      .s:bg_none        .s:fmt_undr
 exe "hi! StatusLine"    .s:fg_fg          .s:bg_panel       .s:fmt_none
 exe "hi! StatusLineNC"  .s:fg_fg_idle     .s:bg_panel       .s:fmt_none
 exe "hi! WildMenu"      .s:fg_bg          .s:bg_markup      .s:fmt_none
-exe "hi! TabLine"       .s:fg_fg          .s:bg_none        .s:fmt_none
+exe "hi! TabLine"       .s:fg_guide       .s:bg_none        .s:fmt_none
 "   TabLineFill"
 "   TabLineSel"
 exe "hi! Title"         .s:fg_keyword     .s:bg_none        .s:fmt_none
@@ -183,7 +183,7 @@ exe "hi! Underlined"      .s:fg_tag       .s:bg_none        .s:fmt_undr
 
 exe "hi! Ignore"          .s:fg_none      .s:bg_none        .s:fmt_none
 
-exe "hi! Error"           .s:fg_fg        .s:bg_error       .s:fmt_none
+exe "hi! Error"           .s:fg_error     .s:bg_none       .s:fmt_none
 
 exe "hi! Todo"            .s:fg_markup    .s:bg_none        .s:fmt_none
 
@@ -247,7 +247,7 @@ exe "hi! NERDTreeDirSlash"          .s:fg_accent     .s:bg_none        .s:fmt_no
 " GitGutter
 " ---------
 exe "hi! GitGutterAdd"          .s:fg_string     .s:bg_none        .s:fmt_none
-exe "hi! GitGutterChange"       .s:fg_tag        .s:bg_none        .s:fmt_none
+exe "hi! GitGutterChange"       .s:fg_keyword    .s:bg_none        .s:fmt_none
 exe "hi! GitGutterDelete"       .s:fg_markup     .s:bg_none        .s:fmt_none
 exe "hi! GitGutterChangeDelete" .s:fg_function   .s:bg_none        .s:fmt_none
 
