@@ -16,8 +16,8 @@ let g:colors_name = "qkzk_better"
 
 let s:palette = {}
 
-" let s:palette.bg        = {'dark': "#4c566a",  'light': "#FAFAFA"}
-let s:palette.bg        = {'dark': "#d8dee9",  'light': "#FAFAFA"}
+let s:palette.bg        = {'dark': "#4c566a",  'light': "#FAFAFA"}
+" let s:palette.bg        = {'dark': "#d8dee9",  'light': "#FAFAFA"}
 
 let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#8B8086"}
 let s:palette.markup    = {'dark': "#BF616A",  'light': "#F07178"}
@@ -36,7 +36,7 @@ let s:palette.panel     = {'dark': "#14191F",  'light': "#FFFFFF"}
 let s:palette.guide     = {'dark': "#6a6e7e",  'light': "#D9D8D7"}
 let s:palette.line      = {'dark': "#2c323c",  'light': "#F3F3F3"}
 let s:palette.selection = {'dark': "#088075",  'light': "#F0EEE4"}
-let s:palette.fg        = {'dark': "#ABB2BF",  'light': "#5C6773"}
+let s:palette.fg        = {'dark': "#d8dee9",  'light': "#5C6773"}
 let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#828C99"}
 
 "}}}
