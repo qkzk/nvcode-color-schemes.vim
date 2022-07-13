@@ -36,6 +36,7 @@ let s:palette.panel     = {'dark': "#14191F",  'light': "#FFFFFF"}
 let s:palette.guide     = {'dark': "#6a6e7e",  'light': "#D9D8D7"}
 let s:palette.line      = {'dark': "#2c323c",  'light': "#F3F3F3"}
 let s:palette.selection = {'dark': "#088075",  'light': "#F0EEE4"}
+let s:palette.visual    = {'dark': "#088075",  'light': "#F0EEE4"}
 let s:palette.fg        = {'dark': "#d8dee9",  'light': "#5C6773"}
 let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#828C99"}
 

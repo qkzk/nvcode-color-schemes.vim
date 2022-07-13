@@ -1,0 +1,58 @@
+#101010               #d7d700
+#262626               #29b8d8
+#232731               #ef5f70
+#292d38               #81b88b
+#2c323c               #c68a75
+#2f343f               #999999
+#3a3a3a               #81a1c1
+#3b4048               #6395ec
+#94151b               #9ba1ab
+#444444               #a3be8c
+#3b4252               #b48ead
+#3e4452               #ff00ff
+#587c0c               #aeafad
+#434c5e               #c586c0
+#515052               #d7ba7d
+#088075               #4fc1ff
+#ff0000               #88c0d0
+#4c566a               #abb2bf
+#0c7d9d               #a2b2cf
+#5c6370               #b5cea8
+#6a6e7e               #82aaff
+#1abb9b               #ffcc66
+#767a8b               #bbbbbb
+#23d18b               #d7d787
+#f44747               #e7cb93
+#ff8800               #d7afd7
+#bf616a               #87d7ff
+#00c7df               #ffadde
+                      #d8dee9
+                      #ffffd7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
