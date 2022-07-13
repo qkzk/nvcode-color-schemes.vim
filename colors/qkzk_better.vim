@@ -21,9 +21,9 @@ let s:palette.bg        = {'dark': "#3b4048",  'light': "#FAFAFA"}
 
 let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#8B8086"}
 let s:palette.markup    = {'dark': "#BF616A",  'light': "#F07178"}
-let s:palette.constant  = {'dark': "#E7CB93",  'light': "#834AAC"}
-let s:palette.operator  = {'dark': "#81A1C1",  'light': "#C7A517"}
-let s:palette.tag       = {'dark': "#c586c0",  'light': "#165389"}
+let s:palette.constant  = {'dark': "#E7CB93",  'light': "#C7A517"}
+let s:palette.operator  = {'dark': "#81A1C1",  'light': "#165389"}
+let s:palette.tag       = {'dark': "#c586c0",  'light': "#834AAC"}
 let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#4CBF99"}
 let s:palette.string    = {'dark': "#A3BE8C",  'light': "#368300"}
 let s:palette.function  = {'dark': "#E7CB93",  'light': "#C26718"}
@@ -36,7 +36,7 @@ let s:palette.panel     = {'dark': "#14191F",  'light': "#FFFFFF"}
 let s:palette.guide     = {'dark': "#6a6e7e",  'light': "#D9D8D7"}
 let s:palette.line      = {'dark': "#2c323c",  'light': "#F3F3F3"}
 let s:palette.selection = {'dark': "#3b4252",  'light': "#F0EEE4"}
-let s:palette.visual    = {'dark': "#088075",  'light': "#F0EEE4"}
+let s:palette.visual    = {'dark': "#088075",  'light': "#3ADBAB"}
 let s:palette.fg        = {'dark': "#c8ced9",  'light': "#5C6773"}
 let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#828C99"}
 
@@ -230,16 +230,6 @@ else
 endif
 
 
-" LuaLine
-" --------
-
-
-exe "hi lualine_b_normal"          .s:fg_fg          .s:bg_none          .s:fmt_none
-exe "hi lualine_c_normal"          .s:fg_fg          .s:bg_none          .s:fmt_none
-exe "hi lualine_a_inactive"        .s:fg_fg          .s:bg_none          .s:fmt_none
-exe "hi lualine_b_inactive"        .s:fg_fg          .s:bg_none          .s:fmt_none
-exe "hi lualine_c_inactive"        .s:fg_fg          .s:bg_none          .s:fmt_none
-
 " NerdTree
 " ---------
 exe "hi! NERDTreeOpenable"          .s:fg_fg_idle     .s:bg_none        .s:fmt_none
@@ -261,6 +251,40 @@ exe "hi! GitGutterChange"       .s:fg_keyword    .s:bg_none        .s:fmt_none
 exe "hi! GitGutterDelete"       .s:fg_markup     .s:bg_none        .s:fmt_none
 exe "hi! GitGutterChangeDelete" .s:fg_function   .s:bg_none        .s:fmt_none
 
+
+" LuaLine
+" --------
+
+exe "hi lualine_b_normal"          .s:fg_fg          .s:bg_none          .s:fmt_none
+exe "hi lualine_c_normal"          .s:fg_fg          .s:bg_none          .s:fmt_none
+exe "hi lualine_a_inactive"        .s:fg_fg          .s:bg_none          .s:fmt_none
+exe "hi lualine_b_inactive"        .s:fg_fg          .s:bg_none          .s:fmt_none
+exe "hi lualine_c_inactive"        .s:fg_fg          .s:bg_none          .s:fmt_none
+
+" TreeSitter
+" -----------
+
+exe "hi! TSConstructor"          .s:fg_tag           .s:bg_none       .s:fmt_none
+exe "hi! TSTextReference"        .s:fg_tag           .s:bg_none       .s:fmt_none
+
+exe "hi! TSConstructor"          .s:fg_none          .s:bg_none       .s:fmt_ital
+
+exe "hi! TSField"                .s:fg_fg            .s:bg_none       .s:fmt_none
+exe "hi! TSParameter"            .s:fg_fg            .s:bg_none       .s:fmt_none
+exe "hi! TSPunctBracket"         .s:fg_fg            .s:bg_none       .s:fmt_none
+exe "hi! TSStringEscape"         .s:fg_fg            .s:bg_none       .s:fmt_none
+exe "hi! TSVariable"             .s:fg_fg            .s:bg_none       .s:fmt_none
+exe "hi! TSVariableBuiltin"      .s:fg_fg            .s:bg_none       .s:fmt_none
+
+exe "hi! TSKeyword"              .s:fg_keyword      .s:bg_none       .s:fmt_none
+exe "hi! TSKeywordFunction"      .s:fg_keyword      .s:bg_none       .s:fmt_none
+exe "hi! TSLabel"                .s:fg_keyword      .s:bg_none       .s:fmt_none
+exe "hi! TSOperator"             .s:fg_keyword      .s:bg_none       .s:fmt_none
+exe "hi! TSProperty"             .s:fg_keyword      .s:bg_none       .s:fmt_none
+
+exe "hi! TSPunctDelimiter"       .s:fg_constant     .s:bg_none       .s:fmt_none
+
+exe "hi! TSStringRegex"          .s:fg_regexp       .s:bg_none       .s:fmt_none
 "}}}
 
 " Diff Syntax Highlighting:"{{{
@@ -290,48 +314,3 @@ hi! link diffAdded String
 let &background = s:style
 
 " }}}
-
-" rose = tag
-" hi TSConstructor guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi TSTextReference guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-exe "hi! TSConstructor"       .s:fg_tag       .s:bg_none       .s:fmt_none
-exe "hi! TSTextReference"     .s:fg_tag       .s:bg_none       .s:fmt_none
-
-" italic
-" hi TSEmphasis guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=italic cterm=italic
-exe "hi! TSConstructor"       .s:fg_none       .s:bg_none       .s:fmt_ital
-
-" normal = fg
-" hi TSField guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi TSParameter guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi TSPunctBracket guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi TSStringEscape guifg=#d7ba7d ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi TSVariable guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi TSVariableBuiltin guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-exe "hi! TSField"               .s:fg_fg            .s:bg_none       .s:fmt_none
-exe "hi! TSParameter"           .s:fg_fg            .s:bg_none       .s:fmt_none
-exe "hi! TSPunctBracket"        .s:fg_fg            .s:bg_none       .s:fmt_none
-exe "hi! TSStringEscape"        .s:fg_fg            .s:bg_none       .s:fmt_none
-exe "hi! TSVariable"            .s:fg_fg            .s:bg_none       .s:fmt_none
-exe "hi! TSVariableBuiltin"     .s:fg_fg            .s:bg_none       .s:fmt_none
-
-" blue fonce = function
-" hi TSKeyword guifg=#82aaff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi TSKeywordFunction guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi TSLabel guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi TSOperator guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" hi TSProperty guifg=#88c0d0 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-
-exe "hi! TSKeyword"              .s:fg_keyword       .s:bg_none       .s:fmt_none
-exe "hi! TSKeywordFunction"      .s:fg_keyword       .s:bg_none       .s:fmt_none
-exe "hi! TSLabel"                .s:fg_keyword       .s:bg_none       .s:fmt_none
-exe "hi! TSOperator"             .s:fg_keyword       .s:bg_none       .s:fmt_none
-exe "hi! TSProperty"             .s:fg_keyword       .s:bg_none       .s:fmt_none
-
-" jaune = constant
-" hi TSPunctDelimiter guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-exe "hi! TSPunctDelimiter"          .s:fg_constant       .s:bg_none       .s:fmt_none
-
-" regexp
-" hi TSStringRegex guifg=#a3be8c ctermfg=144 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-exe "hi! TSStringRegex"           .s:fg_regexp       .s:bg_none       .s:fmt_none
