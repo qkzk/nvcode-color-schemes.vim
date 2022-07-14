@@ -202,7 +202,7 @@ exe "hi! CursorLineConceal" .s:fg_guide   .s:bg_line        .s:fmt_none
 if has("nvim")
   let g:terminal_color_0 =  s:palette.bg[s:style]
   let g:terminal_color_1 =  s:palette.markup[s:style]
-  let g:terminal_color_2 =  s:palette.string[s:style]
+  let g:terminal_color_2 =  s:palette.function[s:style]
   let g:terminal_color_3 =  s:palette.accent[s:style]
   let g:terminal_color_4 =  s:palette.tag[s:style]
   let g:terminal_color_5 =  s:palette.constant[s:style]
@@ -210,7 +210,7 @@ if has("nvim")
   let g:terminal_color_7 =  s:palette.fg[s:style]
   let g:terminal_color_8 =  s:palette.fg_idle[s:style]
   let g:terminal_color_9 =  s:palette.error[s:style]
-  let g:terminal_color_10 = s:palette.string[s:style]
+  let g:terminal_color_10 = s:palette.function[s:style]
   let g:terminal_color_11 = s:palette.accent[s:style]
   let g:terminal_color_12 = s:palette.tag[s:style]
   let g:terminal_color_13 = s:palette.constant[s:style]
@@ -220,11 +220,11 @@ if has("nvim")
   let g:terminal_color_foreground = s:palette.fg[s:style]
 else
   let g:terminal_ansi_colors =  [s:palette.bg[s:style],      s:palette.markup[s:style]]
-  let g:terminal_ansi_colors += [s:palette.string[s:style],  s:palette.accent[s:style]]
+  let g:terminal_ansi_colors += [s:palette.function[s:style],  s:palette.accent[s:style]]
   let g:terminal_ansi_colors += [s:palette.tag[s:style],     s:palette.constant[s:style]]
   let g:terminal_ansi_colors += [s:palette.regexp[s:style],  "#FFFFFF"]
   let g:terminal_ansi_colors += [s:palette.fg_idle[s:style], s:palette.error[s:style]]
-  let g:terminal_ansi_colors += [s:palette.string[s:style],  s:palette.accent[s:style]]
+  let g:terminal_ansi_colors += [s:palette.function[s:style],  s:palette.accent[s:style]]
   let g:terminal_ansi_colors += [s:palette.tag[s:style],     s:palette.constant[s:style]]
   let g:terminal_ansi_colors += [s:palette.regexp[s:style],  s:palette.comment[s:style]]
 endif
