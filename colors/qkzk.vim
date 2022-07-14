@@ -207,7 +207,7 @@ if has("nvim")
   let g:terminal_color_4 =  s:palette.tag[s:style]
   let g:terminal_color_5 =  s:palette.constant[s:style]
   let g:terminal_color_6 =  s:palette.regexp[s:style]
-  let g:terminal_color_7 =  "#FFFFFF"
+  let g:terminal_color_7 =  s:palette.fg[s:style]
   let g:terminal_color_8 =  s:palette.fg_idle[s:style]
   let g:terminal_color_9 =  s:palette.error[s:style]
   let g:terminal_color_10 = s:palette.string[s:style]
