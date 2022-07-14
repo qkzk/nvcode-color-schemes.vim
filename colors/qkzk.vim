@@ -5,7 +5,6 @@ if exists("syntax_on")
   syntax reset
 endif
 
-22
 
 let s:style = get(g:, 'qkzkcolor', 'dark')
 let g:colors_name = "qkzk"
