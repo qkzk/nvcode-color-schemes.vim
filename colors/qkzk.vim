@@ -283,6 +283,7 @@ exe "hi! TSOperator"             .s:fg_keyword      .s:bg_none       .s:fmt_none
 exe "hi! TSProperty"             .s:fg_keyword      .s:bg_none       .s:fmt_none
 
 exe "hi! TSPunctDelimiter"       .s:fg_constant     .s:bg_none       .s:fmt_none
+exe "hi! TSStrong"               .s:fg_constant     .s:bg_none       .s:fmt_none
 
 exe "hi! TSStringRegex"          .s:fg_regexp       .s:bg_none       .s:fmt_none
 "}}}
