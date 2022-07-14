@@ -211,7 +211,7 @@ if has("nvim")
   let g:terminal_color_8 =  s:palette.fg_idle[s:style]
   let g:terminal_color_9 =  s:palette.error[s:style]
   let g:terminal_color_10 = s:palette.keyword[s:style]
-  let g:terminal_color_11 = s:palette.keyword[s:style]
+  let g:terminal_color_11 = s:palette.accent[s:style]
   let g:terminal_color_12 = s:palette.tag[s:style]
   let g:terminal_color_13 = s:palette.constant[s:style]
   let g:terminal_color_14 = s:palette.regexp[s:style]
