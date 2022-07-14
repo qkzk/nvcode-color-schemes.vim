@@ -265,7 +265,8 @@ exe "hi lualine_c_inactive"        .s:fg_fg          .s:bg_none          .s:fmt_
 " -----------
 
 exe "hi! TSConstructor"          .s:fg_tag           .s:bg_none       .s:fmt_none
-exe "hi! TSTextReference"        .s:fg_tag           .s:bg_none       .s:fmt_none
+
+exe "hi! TSTextReference"        .s:fg_error         .s:bg_none       .s:fmt_none
 
 exe "hi! TSConstructor"          .s:fg_none          .s:bg_none       .s:fmt_ital
 
@@ -281,12 +282,12 @@ exe "hi! TSKeywordFunction"      .s:fg_keyword      .s:bg_none       .s:fmt_none
 exe "hi! TSLabel"                .s:fg_keyword      .s:bg_none       .s:fmt_none
 exe "hi! TSOperator"             .s:fg_keyword      .s:bg_none       .s:fmt_none
 exe "hi! TSProperty"             .s:fg_keyword      .s:bg_none       .s:fmt_none
-exe "hi! TSEmphasis"             .s:fg_keyword      .s:bg_none       .s:fmt_none
 
 exe "hi! TSPunctDelimiter"       .s:fg_constant     .s:bg_none       .s:fmt_none
 exe "hi! TSStrong"               .s:fg_constant     .s:bg_none       .s:fmt_none
 
 exe "hi! TSStringRegex"          .s:fg_regexp       .s:bg_none       .s:fmt_none
+exe "hi! TSEmphasis"             .s:fg_regexp       .s:bg_none       .s:fmt_none
 "}}}
 
 " Diff Syntax Highlighting:"{{{
