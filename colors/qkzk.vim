@@ -19,15 +19,15 @@ let s:palette = {}
 let s:palette.bg_nvim   = {'dark': "NONE",     'light': "#DADAA8"}
 let s:palette.bg        = {'dark': "#3b4048",  'light': "#BABA77"}
 
-let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#AAAA7A"}
+let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#999966"}
 let s:palette.markup    = {'dark': "#BF616A",  'light': "#D05158"}
-let s:palette.constant  = {'dark': "#ff9f40",  'light': "#cc8a30"}
+let s:palette.constant  = {'dark': "#ff9f40",  'light': "#775522"}
 let s:palette.operator  = {'dark': "#81A1C1",  'light': "#164379"}
 let s:palette.tag       = {'dark': "#c586c0",  'light': "#632A8C"}
 let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#4CBF99"}
 let s:palette.string    = {'dark': "#A3BE8C",  'light': "#135E1C"}
-let s:palette.function  = {'dark': "#E7CB93",  'light': "#666644"}
-let s:palette.special   = {'dark': "#AACCFF",  'light': "#35578A"}
+let s:palette.function  = {'dark': "#E7CB93",  'light': "#663311"}
+let s:palette.special   = {'dark': "#AACCFF",  'light': "#35778A"}
 let s:palette.keyword   = {'dark': "#7799FF",  'light': "#133568"}
 
 let s:palette.error     = {'dark': "#F44747",  'light': "#F44747"}
