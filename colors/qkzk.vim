@@ -24,7 +24,7 @@ let s:palette.markup    = {'dark': "#BF616A",  'light': "#D05158"}
 let s:palette.constant  = {'dark': "#ff9f40",  'light': "#775522"}
 let s:palette.operator  = {'dark': "#81A1C1",  'light': "#164379"}
 let s:palette.tag       = {'dark': "#c586c0",  'light': "#632A8C"}
-let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#4CBF99"}
+let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#338844"}
 let s:palette.string    = {'dark': "#A3BE8C",  'light': "#135E1C"}
 let s:palette.function  = {'dark': "#E7CB93",  'light': "#663311"}
 let s:palette.special   = {'dark': "#AACCFF",  'light': "#35778A"}
@@ -36,7 +36,7 @@ let s:palette.panel     = {'dark': "#14191F",  'light': "#BA9A77"}
 let s:palette.guide     = {'dark': "#6a6e7e",  'light': "#847462"}
 let s:palette.line      = {'dark': "#2c323c",  'light': "#CACAAA"}
 let s:palette.selection = {'dark': "#3b4252",  'light': "#BABA9A"}
-let s:palette.visual    = {'dark': "#088075",  'light': "#3ADBAB"}
+let s:palette.visual    = {'dark': "#088075",  'light': "#5ADBBB"}
 let s:palette.fg        = {'dark': "#c8ced9",  'light': "#5C3733"}
 let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#825555"}
 
