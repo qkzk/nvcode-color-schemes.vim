@@ -21,7 +21,7 @@ let s:palette.bg        = {'dark': "#3b4048",  'light': "#BABA9A"}
 
 let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#AAAA7A"}
 let s:palette.markup    = {'dark': "#BF616A",  'light': "#D05158"}
-let s:palette.constant  = {'dark': "#E7CB93",  'light': "#A26718"}
+let s:palette.constant  = {'dark': "#C7AB73",  'light': "#A26718"}
 let s:palette.operator  = {'dark': "#81A1C1",  'light': "#164379"}
 let s:palette.tag       = {'dark': "#c586c0",  'light': "#834AAC"}
 let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#4CBF99"}
@@ -167,8 +167,7 @@ exe "hi! Include"         .s:fg_keyword   .s:bg_none        .s:fmt_none
 "   Macro"
 "   PreCondit"
 
-" exe "hi! Type"            .s:fg_tag       .s:bg_none        .s:fmt_none
-exe "hi! Type"            .s:fg_regexp    .s:bg_none        .s:fmt_none
+exe "hi! Type"            .s:fg_tag       .s:bg_none        .s:fmt_none
 "   StorageClass"
 exe "hi! Structure"       .s:fg_special   .s:bg_none        .s:fmt_none
 "   Typedef"
@@ -280,8 +279,8 @@ exe "hi! TSLabel"                .s:fg_keyword      .s:bg_none        .s:fmt_non
 exe "hi! TSOperator"             .s:fg_keyword      .s:bg_none        .s:fmt_none
 exe "hi! TSProperty"             .s:fg_keyword      .s:bg_none        .s:fmt_none
 
-exe "hi! TSPunctDelimiter"       .s:fg_constant     .s:bg_none        .s:fmt_none
-exe "hi! TSStrong"               .s:fg_constant     .s:bg_none        .s:fmt_none
+exe "hi! TSPunctDelimiter"       .s:fg_function     .s:bg_none        .s:fmt_none
+exe "hi! TSStrong"               .s:fg_function     .s:bg_none        .s:fmt_none
 
 exe "hi! TSStringRegex"          .s:fg_regexp       .s:bg_none        .s:fmt_none
 exe "hi! TSEmphasis"             .s:fg_regexp       .s:bg_none        .s:fmt_none
