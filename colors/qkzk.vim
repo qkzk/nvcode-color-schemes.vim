@@ -167,7 +167,8 @@ exe "hi! Include"         .s:fg_keyword   .s:bg_none        .s:fmt_none
 "   Macro"
 "   PreCondit"
 
-exe "hi! Type"            .s:fg_tag       .s:bg_none        .s:fmt_none
+" exe "hi! Type"            .s:fg_tag       .s:bg_none        .s:fmt_none
+exe "hi! Type"            .s:fg_regexp    .s:bg_none        .s:fmt_none
 "   StorageClass"
 exe "hi! Structure"       .s:fg_special   .s:bg_none        .s:fmt_none
 "   Typedef"
@@ -179,7 +180,7 @@ exe "hi! Special"         .s:fg_special   .s:bg_none        .s:fmt_none
 "   SpecialComment"
 "   Debug"
 "
-exe "hi! Underlined"      .s:fg_tag       .s:bg_none        .s:fmt_undr
+exe "hi! Underlined"      .s:fg_none      .s:bg_none        .s:fmt_undr
 
 exe "hi! Ignore"          .s:fg_none      .s:bg_none        .s:fmt_none
 
