@@ -17,28 +17,28 @@ let g:colors_name = "qkzk"
 let s:palette = {}
 
 let s:palette.bg_nvim   = {'dark': "NONE",     'light': "#DADAA8"}
-let s:palette.bg        = {'dark': "#3b4048",  'light': "#BABA9A"}
+let s:palette.bg        = {'dark': "#3b4048",  'light': "#BABA77"}
 
 let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#AAAA7A"}
 let s:palette.markup    = {'dark': "#BF616A",  'light': "#D05158"}
-let s:palette.constant  = {'dark': "#ff9f40",  'light': "#ff7f00"}
+let s:palette.constant  = {'dark': "#ff9f40",  'light': "#cc8a30"}
 let s:palette.operator  = {'dark': "#81A1C1",  'light': "#164379"}
-let s:palette.tag       = {'dark': "#c586c0",  'light': "#834AAC"}
+let s:palette.tag       = {'dark': "#c586c0",  'light': "#632A8C"}
 let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#4CBF99"}
 let s:palette.string    = {'dark': "#A3BE8C",  'light': "#135E1C"}
-let s:palette.function  = {'dark': "#E7CB93",  'light': "#7347C"}
-let s:palette.special   = {'dark': "#AACCFF",  'light': "#5577AA"}
-let s:palette.keyword   = {'dark': "#7799FF",  'light': "#335588"}
+let s:palette.function  = {'dark': "#E7CB93",  'light': "#666644"}
+let s:palette.special   = {'dark': "#AACCFF",  'light': "#35578A"}
+let s:palette.keyword   = {'dark': "#7799FF",  'light': "#133568"}
 
 let s:palette.error     = {'dark': "#F44747",  'light': "#F44747"}
 let s:palette.accent    = {'dark': "#1ABB9B",  'light': "#1A9B7B"}
-let s:palette.panel     = {'dark': "#14191F",  'light': "#9ABABA"}
+let s:palette.panel     = {'dark': "#14191F",  'light': "#BA9A77"}
 let s:palette.guide     = {'dark': "#6a6e7e",  'light': "#847462"}
 let s:palette.line      = {'dark': "#2c323c",  'light': "#CACAAA"}
 let s:palette.selection = {'dark': "#3b4252",  'light': "#BABA9A"}
 let s:palette.visual    = {'dark': "#088075",  'light': "#3ADBAB"}
 let s:palette.fg        = {'dark': "#c8ced9",  'light': "#5C3733"}
-let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#828C99"}
+let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#825555"}
 
 "}}}
 
