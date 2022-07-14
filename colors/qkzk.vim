@@ -21,14 +21,14 @@ let s:palette.bg        = {'dark': "#3b4048",  'light': "#BABA9A"}
 
 let s:palette.comment   = {'dark': "#6A6E7E",  'light': "#AAAA7A"}
 let s:palette.markup    = {'dark': "#BF616A",  'light': "#D05158"}
-let s:palette.constant  = {'dark': "#C7AB73",  'light': "#A26718"}
+let s:palette.constant  = {'dark': "#ff9f40",  'light': "#ff7f00"}
 let s:palette.operator  = {'dark': "#81A1C1",  'light': "#164379"}
 let s:palette.tag       = {'dark': "#c586c0",  'light': "#834AAC"}
 let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#4CBF99"}
 let s:palette.string    = {'dark': "#A3BE8C",  'light': "#135E1C"}
-let s:palette.function  = {'dark': "#E7CB93",  'light': "#992728"}
-let s:palette.special   = {'dark': "#88C0D0",  'light': "#764613"}
-let s:palette.keyword   = {'dark': "#82AAFF",  'light': "#446699"}
+let s:palette.function  = {'dark': "#E7CB93",  'light': "#7347C"}
+let s:palette.special   = {'dark': "#AACCFF",  'light': "#5577AA"}
+let s:palette.keyword   = {'dark': "#7799FF",  'light': "#335588"}
 
 let s:palette.error     = {'dark': "#F44747",  'light': "#F44747"}
 let s:palette.accent    = {'dark': "#1ABB9B",  'light': "#1A9B7B"}
